@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D3F1085D2C25F901003E9399 /* SwiftUI_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1085C2C25F901003E9399 /* SwiftUI_FrameworksApp.swift */; };
-		D3F1085F2C25F901003E9399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1085E2C25F901003E9399 /* ContentView.swift */; };
 		D3F108612C25F902003E9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F108602C25F902003E9399 /* Assets.xcassets */; };
 		D3F108642C25F902003E9399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F108632C25F902003E9399 /* Preview Assets.xcassets */; };
+		D3F1086D2C25F98A003E9399 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1086C2C25F98A003E9399 /* Framework.swift */; };
+		D3F1086F2C25FA28003E9399 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1086E2C25FA28003E9399 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3F108592C25F901003E9399 /* SwiftUI-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1085C2C25F901003E9399 /* SwiftUI_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FrameworksApp.swift; sourceTree = "<group>"; };
-		D3F1085E2C25F901003E9399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3F108602C25F902003E9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3F108632C25F902003E9399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3F1086C2C25F98A003E9399 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		D3F1086E2C25FA28003E9399 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D3F1085C2C25F901003E9399 /* SwiftUI_FrameworksApp.swift */,
-				D3F1085E2C25F901003E9399 /* ContentView.swift */,
+				D3F1086E2C25FA28003E9399 /* FrameworkGridView.swift */,
+				D3F1086C2C25F98A003E9399 /* Framework.swift */,
 				D3F108602C25F902003E9399 /* Assets.xcassets */,
 				D3F108622C25F902003E9399 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F1085F2C25F901003E9399 /* ContentView.swift in Sources */,
+				D3F1086F2C25FA28003E9399 /* FrameworkGridView.swift in Sources */,
+				D3F1086D2C25F98A003E9399 /* Framework.swift in Sources */,
 				D3F1085D2C25F901003E9399 /* SwiftUI_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
