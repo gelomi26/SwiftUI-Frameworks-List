@@ -27,7 +27,7 @@
 		D39565BA2C26ABFF007AB5B0 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		D39565BC2C26B0F0007AB5B0 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		D39565BE2C26B16F007AB5B0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
-		D3F108592C25F901003E9399 /* SwiftUI-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F108592C25F901003E9399 /* SwiftUI-Frameworks-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Frameworks-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1085C2C25F901003E9399 /* SwiftUI_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FrameworksApp.swift; sourceTree = "<group>"; };
 		D3F108602C25F902003E9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3F108632C25F902003E9399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		D3F1085A2C25F901003E9399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3F108592C25F901003E9399 /* SwiftUI-Frameworks.app */,
+				D3F108592C25F901003E9399 /* SwiftUI-Frameworks-List.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3F108582C25F901003E9399 /* SwiftUI-Frameworks */ = {
+		D3F108582C25F901003E9399 /* SwiftUI-Frameworks-List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3F108672C25F902003E9399 /* Build configuration list for PBXNativeTarget "SwiftUI-Frameworks" */;
+			buildConfigurationList = D3F108672C25F902003E9399 /* Build configuration list for PBXNativeTarget "SwiftUI-Frameworks-List" */;
 			buildPhases = (
 				D3F108552C25F901003E9399 /* Sources */,
 				D3F108562C25F901003E9399 /* Frameworks */,
@@ -167,9 +167,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-Frameworks";
+			name = "SwiftUI-Frameworks-List";
 			productName = "SwiftUI-Frameworks";
-			productReference = D3F108592C25F901003E9399 /* SwiftUI-Frameworks.app */;
+			productReference = D3F108592C25F901003E9399 /* SwiftUI-Frameworks-List.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3F108542C25F901003E9399 /* Build configuration list for PBXProject "SwiftUI-Frameworks" */;
+			buildConfigurationList = D3F108542C25F901003E9399 /* Build configuration list for PBXProject "SwiftUI-Frameworks-List" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3F108582C25F901003E9399 /* SwiftUI-Frameworks */,
+				D3F108582C25F901003E9399 /* SwiftUI-Frameworks-List */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3F108542C25F901003E9399 /* Build configuration list for PBXProject "SwiftUI-Frameworks" */ = {
+		D3F108542C25F901003E9399 /* Build configuration list for PBXProject "SwiftUI-Frameworks-List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3F108652C25F902003E9399 /* Debug */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3F108672C25F902003E9399 /* Build configuration list for PBXNativeTarget "SwiftUI-Frameworks" */ = {
+		D3F108672C25F902003E9399 /* Build configuration list for PBXNativeTarget "SwiftUI-Frameworks-List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3F108682C25F902003E9399 /* Debug */,
